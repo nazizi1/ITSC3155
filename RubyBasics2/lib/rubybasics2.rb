@@ -13,5 +13,9 @@ end
 
 # Part III
 def binary_multiple_of_4? s
-  # YOUR CODE HERE
+	if (s.to_s =~/\b[01]+\b/ && s.to_i % 4 == 0)
+	  return true
+	else
+	  return false
+	end
 end
