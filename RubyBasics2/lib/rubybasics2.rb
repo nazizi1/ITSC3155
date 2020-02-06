@@ -7,7 +7,8 @@ end
 
 # Part II
 def starts_with_consonant? s
-  # YOUR CODE HERE
+  consonant = /^[^aeiou\d\W_]/i
+  return true if consonant.match(s)
 end
 
 # Part III
