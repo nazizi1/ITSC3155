@@ -2,10 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 input[type=text] {
-    width: 100%;
+    width: 50%;
     heigth: 300px;
     padding: 12px 12px;
     border: 2px solid #ccc;
     background-color: #f8f8f8;
     resize: none;
+}
+
+input[type=button], input [type=submit] {
+    background-color: #4CAFS0;
+    float: right;
+    border: none;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    curson: pointer;
 }
